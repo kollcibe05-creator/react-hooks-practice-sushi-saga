@@ -13,7 +13,6 @@ function Sushi({sushi, onAddEmptyPlate, moneyLeft, onDeductBalance}) {
   return (
     <div className="sushi">
       <div className="plate" onClick={handleClick}>
-        {/* Tell me if this sushi has been eaten! */}
         {empty ? null : (
           <img
             src={img_url}
